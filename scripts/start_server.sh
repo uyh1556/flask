@@ -1,4 +1,3 @@
 #!/bin/bash
 
-source /root/.bashrc
-flask run
+/usr/local/bin/flask run
