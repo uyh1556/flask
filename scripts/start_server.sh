@@ -5,4 +5,4 @@ export FLASK_DEBUG=True
 export FLASK_RUN_PORT=80
 export FLASK_RUN_HOST=0.0.0.0
 
-/usr/local/bin/flask run
+/usr/local/bin/flask run > flask.log 2>&1 &
